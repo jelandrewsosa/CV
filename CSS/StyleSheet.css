@@ -390,6 +390,13 @@ h3.my-attitude {
 .about .about-content .attitude-set {
     color: var(--skin-color) ;
 }
+
+address {
+    line-height: 25px;
+    font-size: 16px;
+    text-align: justify;
+    color: var(--text-black-700);
+}
 /* custom end */
 
 .about .about-content .personal-info .info-item {
