@@ -731,12 +731,18 @@ address {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white !important;
 }
 
 .tech-stack a {
-    color: white;
+    color: white !important;
     font-weight: 700;
-  }
+}
+
+.tech-stack h3 {
+    color: white !important;
+    font-weight: 700;
+}
 
 .resume {
     text-align: center;
