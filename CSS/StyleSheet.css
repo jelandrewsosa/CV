@@ -43,7 +43,6 @@ ul {
 
 .section {
     background: var(--bg-black-900);
-    min-height: 100vh;
     display: block;
     padding: 0 30px;
     opacity: 1;
@@ -722,9 +721,20 @@ address {
 }
 
 .flip-card-back {
-  background-color: #2980b9;
+  background-color: var(--skin-color);;
   color: white;
   transform: rotateY(180deg);
+}
+
+.tech-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume {
+    text-align: center;
 }
 
 /* Contact Me */
@@ -814,7 +824,6 @@ address {
 
 .contact .contact-form .btn {
     height: 50px;
-    padding: 0 50px;
 }
 
 /* Media Query*/
