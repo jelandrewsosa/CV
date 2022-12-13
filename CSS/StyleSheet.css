@@ -737,6 +737,18 @@ address {
     text-align: center;
 }
 
+.tech h2 {
+    font-size: 1.5rem;
+    color: var(--text-black-900);
+    font-weight: 700;
+}
+
+.tech h4 {
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-black-700);
+}
+
 /* Contact Me */
 .contact-title {
     color: var(--skin-color);
