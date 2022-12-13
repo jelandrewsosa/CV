@@ -733,6 +733,11 @@ address {
   align-items: center;
 }
 
+.tech-stack a {
+    color: white;
+    font-weight: 700;
+  }
+
 .resume {
     text-align: center;
 }
